@@ -1,0 +1,33 @@
+button {
+  padding: 5px 10px;
+  line-height: 20px;
+  border: none;
+}
+
+.#{$prefix}btn {
+  padding: 6px 10px;
+  line-height: 20px;
+  border: none;
+  transition: all $transition-time;
+  -webkit-transition: all $transition-time;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.#{$prefix}btn:hover {
+
+}
+
+.#{$prefix}btn.#{$prefix}btn-submit {
+  color: #fff;
+  background: $color-main-green;
+}
+
+.#{$prefix}btn.#{$prefix}btn-submit:hover {
+  background: $color-main-light-green;
+}
+
+
+
+
+

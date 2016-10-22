@@ -1,0 +1,44 @@
+input, textarea {
+  display: block;
+  width: 100%;
+  padding-left: 10px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+  border: 1px solid $color-main-green;
+}
+
+button, input, textarea {
+  outline: 0;
+  -webkit-transition: border-color .3s cubic-bezier(.65, .05, .35, .5);
+  transition: border-color .3s cubic-bezier(.65, .05, .35, .5);
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+.#{$prefix}form {
+  .#{$prefix}form-group {
+    margin-bottom: 15px;
+    clear: both;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    .#{$prefix}form-label {
+      float: left;
+      display: block;
+      padding: 9px 15px;
+      width: 80px;
+      font-size: 14px;
+      text-align: right;
+    }
+    .#{$prefix}form-control {
+      margin-left: 110px;
+      min-height: 36px;
+      position: relative;
+    }
+  }
+}

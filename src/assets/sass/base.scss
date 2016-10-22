@@ -1,0 +1,22 @@
+//定义前缀
+
+@import "./variable";
+@import "./col";
+@import "./form-and-input";
+@import "./button";
+@import "~bootstrap/scss/bootstrap.scss";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font: 14px Helvetica Neue, Helvetica, PingFang SC, \5FAE\8F6F\96C5\9ED1, Tahoma, Arial, sans-serif;
+}
+
+#app {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}

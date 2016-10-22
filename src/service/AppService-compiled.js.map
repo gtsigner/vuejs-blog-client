@@ -1,0 +1,1 @@
+{"version":3,"sources":["AppService.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;;IAIa,U,WAAA,U;;;;;;;+BAGA,CAIV","file":"AppService-compiled.js","sourcesContent":["/**\n * Created by zhaojunlike on 2016/10/20.\n */\n\nexport class AppService {\n\n\n  initUser() {\n    //初始化用户得信息\n\n\n  }\n\n}\n\n\n"]}

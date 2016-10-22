@@ -1,0 +1,1 @@
+{"version":3,"sources":["router-config.js"],"names":[],"mappings":";;;;;;kBAIe,UAAU,MAAV,EAAkB,CAEhC,C","file":"router-config-compiled.js","sourcesContent":["/**\n * Created by zhaojunlike on 2016/10/19.\n */\n\nexport default function (router) {\n\n}\n"]}
